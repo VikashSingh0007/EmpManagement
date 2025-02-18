@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test# Replace with your database details
+    username: postgres  # Replace with your database username
+    password: postgres  # Replace with your database password
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10  # Optional, configure based on your requirements
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create  # Automatically update your schema (use 'validate' or 'none' in production)
+    show-sql: true  # Optional, show SQL queries in logs (useful for debugging)
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: false  # Set to true if you're using Flyway for database migrations
+
+
+server:
+  port: 8080  # Specify the port if needed
+
+logging:
+  level:
+    org.springframework: INFO  # Set logging level
+jwt:
+  secret: "PASTE_BASE64_ENCODED_SECRET_HERE"
+
