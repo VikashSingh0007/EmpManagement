@@ -1,6 +1,6 @@
 # User Management System (NestJS + Kotlin + PostgreSQL + Kafka)
 
-## 📌 Project Description
+##  Project Description
 
 This is a **User Management System** built with **NestJS**, **Spring Boot (Kotlin)**, **PostgreSQL**, and **Kafka**. It includes:
 
@@ -85,7 +85,7 @@ This is a **User Management System** built with **NestJS**, **Spring Boot (Kotli
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 ### **Authentication (NestJS)**
 | Method | Endpoint        | Description         |
@@ -114,7 +114,7 @@ This is a **User Management System** built with **NestJS**, **Spring Boot (Kotli
 
 ---
 
-## 📌 Kafka Events
+##  Kafka Events
 
 | Event                     | Producer (Service) | Consumer (Service) | Description |
 |---------------------------|-------------------|-------------------|-------------|
@@ -123,5 +123,5 @@ This is a **User Management System** built with **NestJS**, **Spring Boot (Kotli
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the **Vikash**. good
