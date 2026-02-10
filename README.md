@@ -14,7 +14,7 @@ This is a **User Management System** built with **NestJS**, **Spring Boot (Kotli
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### NestJS Service
 
